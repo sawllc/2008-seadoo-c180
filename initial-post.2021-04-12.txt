@@ -1,0 +1,32 @@
+Evening everyone.
+
+I struggling with a symptom I can not find the root cause of & I'm coming up to the end of my rope.  Before I give in & head out to the dealer, I'm hoping some yalls experience can point me in a better direction.  I just purchased a 2008 C180 SE, I have minimal back-story aside from they couldn't get it started.
+
+
+[B]Symptom:[/B]
+One long beep after inserting DESS key.  No reaction or audible responses upon pressing start button.  Starter solenoid does not engage. 
+[B]Note: [/B]No VIN number present in CanDoo PRO (Attached screenshots from CanDoo).
+
+
+[B]Steps to Reproduce:[/B]
+1. Engage the battery
+2. insert the DESS key
+
+
+[B]Tried/Tested:[/B]
+- Found the Crankshaft position sensor wire to have been previous damaged, slightly melted by the exhaust.  I've repaired the wire and confirmed ~895 Ω between ECU pins A-5 & A-19.
+- Replaced the engine harness (BRP: 420665205. On my initial assesment, I thought the melted CPS sensor wire was on this harness - so I replaced it).  Cleaned all connections, replaced dielectric grease where applicable.  The symptom behavior was unchanged from before or after swapping the harness.
+- Confirmed ECU pin B-19 shows 12+ vdc when depressing the start/stop button on the dash & DESS key installed.
+- Confirmed ECU engine ground @ pins B-1, B-2, B-32, B-41 with <0.2 Ω
+- Tested the neutral safety switch (at the forward controls).  Closed circuit at neutral, open circuit outside of neutral.
+- Gauge cluster powers up, appears to read normal (outsie temp, compass direction, etc)
+- Battery holds a charge & sits at 12.4~ volts (throughout my diag, slightly higher on fresh charge).
+- All fuse blocks have been cleaned & all fuses replaced.  Confirmed ~12vdc @ each fuse.
+- Some accessories are working correctly.  Bilge, courtesty lights, nav lights.
+- Blower, horn & radio are unresponsive.  Fuses are good, have not investigated further yet.
+
+I'm not sure where else to look or what else to evaluate.  I've spoken w/ a couple savvy folks in this field that have mentioned these ECUs are rather robust.  
+
+What else could I be missing?  Or do I just need to pony up for an ECU (BRP: 420664946)?
+
+Thanks yall.  Appreciate any & all help.  Looking to get my family on the water as soon as possible!
